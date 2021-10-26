@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint II</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Chapecó - SC</h1>
+    </header>
+    <img src="https://www.lenoticias.com.br/extranet/uploads/Noticia/cidade_chapeco_grande_alta_resolucao_1527603325225.jpg">
+    <main>
+        <h2>Sobre Chapecó</h2>
+        <p>Chapecó é um município brasileiro localizado no estado de Santa Catarina, na região Sul do Brasil, distando 557 km da capital estadual, Florianópolis. <br><br>
+            Sua população em 2021, conforme estimativas do IBGE, era de <span class="negrito">227 587 habitantes</span>. Sendo considerada uma cidade média, figura entre as cinco cidades mais importantes do estado.
+            É considerado um importante centro industrial, financeiro e educacional, é um grande exportador de produtos alimentícios industrializados além de maior produtor de proteína suína do país.<br><br>
+            Chapecó ficou mundialmente conhecida após o acidente aéreo envolvendo a <span class="negrito">Associação Chapecoense de Futebol</span>, clube local.<br><br>
+            Ostenta os títulos de "Capital da Agroindústria", <span class="negrito">"Capital do Oeste"</span> e "Capital do Turismo de Negócios".<br>
+            Também é um polo universitário, atraindo estudantes de todo o Brasil. É a cidade sede da <span class="negrito">Universidade Federal da Fronteira Sul - UFFS</span>.</p>
+    </main>
+
+    <h2>Pontos Turísticos em Chapecó</h2>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/dW14PC5ziYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <h2>Curiosidades</h2>
+    <ul>
+        <li>Chapecó é considera a capital do oeste catarinense por ser a maior cidade dessa região</li>
+        <li>A Usina Hidroelétrica do Foz Chapecó produz energia suficiente para abastecer mais de cinco milhões de lares</li>
+        <li>A ponte do Porto Goio-En sob o Rio Uruguai (que separa SC do RS) foi inaugurada em 1975</li>
+        <li>O termo Barriga-Verde tem origem no apelido dado pelos açorianos ao Regime de Infantaria da Ilha, pois o uniforme dos soldados contava com um cinturão verde sobre a barriga</li>
+        <li>Chapecó se destaca pelas festas, eventos, feiras e exposições que realiza, entre elas: 
+            <ul>
+                <li>Festa da Colonização Italiana</li>
+                <li>Würstfest (festa da salsicha)</li>
+                <li>EFAPI (Exposição Feira Agropecuária, Industrial e Comercialde Chapecó)</li>
+                <li>Rodeio Crioulo e Artístico Interestadual</li>
+                <li>Mercoagro (Feira Internacional de Negócios, Processamento e Industrialização da Carne)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div>
+        <a href="https://www.instagram.com/chapeco.sc/" class="fa fa-instagram">Instagram</a>
+        <a href="https://www.youtube.com/user/prefeituradechapeco" class="fa fa-youtube">YouTube</a>
+    </div>
+
+    <form>
+        <h2>Formulário de Cadastro</h2>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="fullName">Nome Completo</label>
+                <input class="big-input" required placeholder="" type="text" maxlength="100" name="fullName" id="fullName">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input class="big-input" type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="tel">Telefone</label>
+                <input class="small-input" required type="tel" name="tel" id="tel">
+            </div>
+            <div>
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+            <div>
+                <input type="radio" name="idade" id="maiorDeIdade">
+                <label for="maiorDeIdade">Possui mais de 18 anos</label>
+                <input type="radio" name="idade" id="menorDeIdade">
+                <label for="menorDeIdade">Possui menos de 18 anos</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Interesses</legend>
+            <div>
+                <label for="interesses">O que você gostaria de conhecer em Chapecó</label>
+                <select name="interesses" id="interesses">
+                    <option value="">-</option>
+                    <option value="1">Porto Goio-en</option>
+                    <option value="2">Bares e Restaurantes</option>
+                    <option value="3">Casas de Show</option>
+                    <option value="4">Shopping Center</option>
+                    <option value="4">Trilhas e Cachoeiras</option>
+                    <option value="4">Camping</option>
+                </select>                
+            </div>
+            <div>
+                <h3>Selecione qual(is) o(s) seu(s) interesse(s) na cidade:</h3>
+                <div>
+                    <input type="checkbox" name="interesse" value="Brigadeiros">
+                    <label for="interesse">Turismo</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interesse">
+                    <label for="interesse">Residência</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="interesse">
+                    <label  for="interesse">Estudos</label>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <p>Agradeçemos pelo seu contato!</p>
+        
+        <button class="clean-form" type="reset">Limpar formulário</button>
+        
+        <button class="send-form" type="submit">Enviar Cadastro</button>
+
+
+
+    </form>
+
+
+
+            
+
+    
+</body>
+</html>
