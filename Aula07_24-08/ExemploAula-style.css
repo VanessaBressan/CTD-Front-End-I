@@ -1,0 +1,21 @@
+/*classe*/
+/*esse trecho estiliza vários elementos ao mesmo tempo*/
+.titulo-principal, h1 {
+    color:#099494;
+    font-size: 20px;
+}
+
+/*id*/
+#titulo {
+    color:#9acd32;
+    font-size: 30px; 
+}
+
+.card a, .card h1, .card p {
+    color:#ff6347;
+    font-size: 50px;
+}
+
+body {
+    background-color: #c9fac9;
+}

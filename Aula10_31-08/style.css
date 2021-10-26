@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+div {
+    
+    background-image: url('https://images5.alphacoders.com/569/569961.jpg');
+    height: 720px;
+    width: 1280px;
+    padding-top: 24px;
+    text-align: center;
+
+}
+.titulo-principal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #162b02;
+    padding-top: 240px;
+}
+
+.titulo-secundario {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #0b2235;
+}
+
+
+.button {
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #d3c09d;
+    background-color: #0b2235;
+    text-align: center;
+    border-radius: 8px;
+}
