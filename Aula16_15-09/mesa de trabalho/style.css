@@ -1,0 +1,79 @@
+@keyframes fantasma {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    25% {
+        opacity: .5;
+        transform: translateX(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(40px);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(30px);
+        transform: rotate(100deg);
+        transform: scale(2);
+        transform: skew(50deg);
+    }
+    100% {
+        transform: translateX(-30px);
+        transform: rotate(-100deg);
+        transform: scale(-2);
+        transform: skew(-50deg);
+    }
+}
+
+@keyframes colorButton {
+    0% {
+        background-color: salmon;
+    }
+    100% {
+        background-color: violet;
+    }
+}
+
+
+.bola {
+    animation-name: fantasma;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(18, 185, 46);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 10vh auto;
+    display: block;
+    border: none
+}
+
+.icone {
+    animation-name: shake;
+    background-color: aquamarine;
+    width: 150px;
+    height: 100px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 20vh auto;
+    display: block;
+}
+
+button {
+    border:none;
+    padding: 12px 42px;
+    animation-name: colorButton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 10vh auto;
+    display: block;
+}

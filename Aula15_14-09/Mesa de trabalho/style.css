@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(145, 35, 224);
+}
+
+h1::first-letter {
+    color: rgb(93, 41, 131);
+    font-size: 48px;
+}
+
+p::first-letter {
+    color:cornflowerblue;
+    font-size: 20px;
+}
+
+button {
+    border: 0;
+    padding: 12px 24px;
+    background-color: rgb(97, 167, 70);
+    color: white;
+    border-radius: 12px;
+    transition-duration: 1s;
+}
+
+button:hover {
+    background-color: rgb(56, 133, 88);
+    border-radius: 24px;
+}
+
+a:focus {
+    background-color:coral;
+    transition-duration: 5s;
+}
+
+input:checked {
+    margin-left: 25px;
+    border-style: solid;
+    color:blueviolet;
+}
+
+input:disabled {
+    border-radius: 24px;
+}
+
+input:enabled {
+    background-color: rgb(219, 165, 233);
+    transition-duration: .6s;
+    border-radius: 12px
+}
+
+ol li:nth-child(3) {
+    color: rgb(204, 0, 255);
+}

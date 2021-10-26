@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box-um {
+    background-color: lightblue;
+}
+
+.box-dois {
+    background-color: lightpink;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box-tres {
+    background-color: lightgreen;
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 200px/2);
+}
+
+.box-inside {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}

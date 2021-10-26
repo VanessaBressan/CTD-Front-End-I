@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcf2e0;
+}
+
+form {
+    height: auto;
+    width: 700px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    background-color:#d4a58e;
+    color: #72524a;
+}
+
+form img {
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+form h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+form legend {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+form div {
+    margin: 10px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 16x;
+    height: 20px;
+    color: gray;
+}
+
+.checkbox {
+    display: block;
+}
+
+.big-input {
+    width: 300px;
+}
+.small-input {
+    width: 50px;
+    text-align: center;
+}
+
+select {
+    border-radius: 8px;
+    padding: 16x;
+    height: 20px;
+    color: gray;
+}
+
+textarea {
+    display: block;
+    width: 450px;
+    height: 100px;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    padding: 16px;
+    font-size: 25px;
+    color: #553d36;
+}
+
+.center-radio {
+    text-align: center;
+    padding: 10px;
+
+}
+.clean-form {
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 6px;
+    display: block;
+}
+
+.clean-form:hover {
+    background-color: #eb4d22;
+    
+}
+
+.send-form {
+    border-radius: 16px;
+    margin: 15px auto;
+    padding: 12px;
+    width: 150px;
+    display: block;
+    font-size: 20px;
+}
+
+.send-form:hover {
+    border-radius: 40px;
+    background-color:rgb(30, 182, 30);
+    font-weight: bold;
+
+}

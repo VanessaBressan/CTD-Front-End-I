@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa Aula 13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <img src="https://s3.amazonaws.com/yogin-content/2019/04/48622494-spotify-logo.png">
+        
+        <h1>Formulário de Cadastro</h1>
+        <h2>Dados Pessoais</h2>
+
+        <div>
+            <label for="fullName">Nome Completo</label>
+            <input class="big-input" required placeholder="" type="text" name="fullName" id="fullName">
+        </div>
+        
+        <div>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" name="birthDate" id="birthDate">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input class="big-input" type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Senha</label>
+            <input required type="password" minlength="6" maxlength="10" name="password" id="password">
+        </div>
+
+        <div>
+            <label for="sex">Gênero</label>
+            <select name="sex" id="sex">
+                <option value=""></option>
+                <option value="">Feminino</option>
+                <option value="">Masculino</option>
+                <option value="1">Outro</option>
+                <option value="2">Prefiro não informar</option>
+            </select>
+        </div>
+
+        <h2>Localização</h2>
+
+        <div>
+            <label for="city">Cidade</label>
+            <input required type="text" name="city" id="city">
+        </div>
+
+        <div>
+            <label for="state">Estado</label>
+            <input required type="text" name="state" id="state">
+        </div>
+
+        <div>
+            <label for="country">País</label>
+            <input required type="text" name="country"0 id="country">
+        </div>
+
+        <div>
+            <label for="observation">Observação</label>
+            <textarea placeholder="Deixe aqui a sua mensagem" name="observation" id="observation" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="fileUpload">Foto de Perfil</label>
+            <input type="file" name="fileUpload" id="fileUpload">
+        </div>
+
+        <button class="clean-form" type="reset">Limpar formulário</button>
+        
+        <button class="send-form" type="submit">Enviar</button>
+
+
+
+    </form>
+</body>
+</html>

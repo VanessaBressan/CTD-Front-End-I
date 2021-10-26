@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa Aula 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <img src="https://i.pinimg.com/originals/84/cc/5c/84cc5c158d5543a4f32b7776c67832b2.png">
+        
+        <h1>Formulário de Cadastro</h1>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="fullName">Nome Completo</label>
+                <input class="big-input" required placeholder="" type="text" name="fullName" id="fullName">
+            </div>
+            
+            <div>
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+    
+            <div>
+                <label for="email">E-mail</label>
+                <input class="big-input" type="email" name="email" id="email">
+            </div>
+    
+            <div>
+                <label for="password">Senha</label>
+                <input required type="password" minlength="6" maxlength="10" name="password" id="password">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados do Pedido</legend>
+
+            <div>
+                <label for="saborMassa">Sabor da massa</label>
+                <select name="saborMassa" id="saborMassa">
+                    <option value=""></option>
+                    <option value="1">Chocolate Preto</option>
+                    <option value="2">Chocolate Branco</option>
+                    <option value="3">Pão de ló</option>
+                    <option value="4">Sem Glúten</option>
+                </select>                
+            </div>
+
+            <div class="center-radio">
+                <p>Quantidade de recheios?</p>
+                <input type="radio" name="qtdRecheio" id="umRecheio">
+                <label for="umRecheio">1 Recheio</label>
+                <input type="radio" name="qtdRecheio" id="doisRecheios">
+                <label for="doisRecheios">2 Recheios</label>
+                <input type="radio" name="qtdRecheio" id="tresRecheios">
+                <label for="tresRecheios">3 Recheios</label>
+            </div>
+
+            <div>
+                <label for="saborRecheio1">Sabor do Primeiro Recheio</label>
+                <select name="saborRecheio1" id="saborRecheio1">
+                    <option value="">-</option>
+                    <option value="1">Chocolate Preto</option>
+                    <option value="2">Chocolate Branco</option>
+                    <option value="3">Doce de Leite</option>
+                    <option value="4">Coco</option>
+                    <option value="4">Frutas</option>
+                    <option value="4">Nozes</option>
+                </select>                
+            </div>
+
+            <div>
+                <label for="saborRecheio2">Sabor do Segundo Recheio</label>
+                <select name="saborRecheio2" id="saborRecheio2">
+                    <option value="">-</option>
+                    <option value="1">Chocolate Preto</option>
+                    <option value="2">Chocolate Branco</option>
+                    <option value="3">Doce de Leite</option>
+                    <option value="4">Coco</option>
+                    <option value="4">Frutas</option>
+                    <option value="4">Nozes</option>
+                </select>                
+            </div>
+            <div>
+                <label for="saborRecheio3">Sabor do Terceiro Recheio</label>
+                <select name="saborRecheio3" id="saborRecheio3">
+                    <option value="">-</option>
+                    <option value="1">Chocolate Preto</option>
+                    <option value="2">Chocolate Branco</option>
+                    <option value="3">Doce de Leite</option>
+                    <option value="4">Coco</option>
+                    <option value="4">Frutas</option>
+                    <option value="4">Nozes</option>
+                </select>                
+            </div>
+
+            <div>
+                <input type="checkbox">
+                <label for="">Chantilly na cobertura?</label>
+            </div>
+
+            <div>
+                <input type="checkbox">
+                <label for="">Gostaria de complementar o seu pedido?</label>
+            </div>
+
+            <div>
+                <h3>Selecione seus complementos:</h3>
+                <div>
+                    <input type="checkbox" name="extra" value="Brigadeiros">
+                    <label for="extra">Brigadeiros -> </label>
+                    <label for="qtd">Qtd?</label>
+                    <input class="small-input" required placeholder="" type="text" name="qtd" id="qtd">
+                </div>
+                <div>
+                    <input type="checkbox" name="extra">
+                    <label for="extra">Beijinhos -> </label>
+                    <label for="qtd">Qtd?</label>
+                    <input class="small-input" required placeholder="" type="text" name="qtd" id="qtd">
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="extra">
+                    <label  for="extra">Casadinhos -> </label>
+                    <label for="qtd">Qtd?</label>
+                    <input class="small-input" required placeholder="" type="text" name="qtd" id="qtd">
+                </div>
+
+                <div>
+                    <input type="checkbox" name="extra">
+                <label for="extra">Ninho com Nutella -> </label>
+                    <label for="qtd">Qtd?</label>
+                    <input class="small-input" required placeholder="" type="text" name="qtd" id="qtd">
+                </div>
+            </div>
+
+            <div>
+                <label for="observation">Observações do Pedido</label>
+                <textarea placeholder="Deixe aqui a sua observação e detalhes do seu pedido" name="observation" id="observation" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados para Entrega</legend>
+            
+            <div>
+                <input type="checkbox">
+                <label for="">Para entrega?</label>
+            </div>
+
+            <div>
+                <label for="city">Cidade</label>
+                <select name="city" id="city">
+                    <option value="">Selecione uma opção</option>
+                    <option value="">Chapecó</option>
+                    <option value="">Pinhalzinho</option>
+                    <option value="">Xanxerê</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="address">Endereço Completo</label>
+                <input class="big-input" required type="text" name="address" id="address">
+            </div>
+            <div>
+                <label for="reference">Ponto de Referência</label>
+                <input class="big-input" required type="text" name="reference" id="reference">
+            </div>
+
+        </fieldset>
+
+        <p>Agradeçemos pelo seu contato!</p>
+        
+        <button class="clean-form" type="reset">Limpar formulário</button>
+        
+        <button class="send-form" type="submit">Enviar meu Pedido</button>
+
+    </form>
+</body>
+</html>

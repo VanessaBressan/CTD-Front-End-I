@@ -1,0 +1,52 @@
+@keyframes shake {
+    0% {
+        background-color: salmon;
+        transform: translateX(20px);
+    }
+    100% {
+        background-color: violet;
+        transform: translateX(-20px);
+    }
+}
+
+button {
+    border:none;
+    padding: 12px 42px;
+    /* transition: 2s; */
+    animation-name: shake; /*-> pode deixar somente no hover e tirar daqui*/
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards; ->o botão para do jeito que está nos 100% */
+    margin: 30vh auto;
+    display: block;
+}
+
+button:hover {
+    /* background-color: aquamarine; */
+    /* padding: 20px; */
+    /* transform: rotate(20deg); */
+    /* transform: scale(2); */
+    /* transform: skew(20deg); */
+    /* transform: translateX(12px); */
+    /* transform: translateY(50px); */
+    /* transform: translate(20px, 40px); */
+    /* podemos utilizar todos de uma vez:*/
+    /* transform: rotate(20deg) scale(2) skew(20deg) translate(20px, 40px); */
+    /* animation-name: shake; */
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform:translateX(100px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    animation-name: fadeUp; 
+}

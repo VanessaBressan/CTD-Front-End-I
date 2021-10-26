@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 20000px;
+}
+
+.main-menu {
+    width: 100%;
+    background-color: #e0d8d8;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-menu img {
+    width: 80px;
+    margin: 0 50px;
+}
+
+.main-menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.pesquisa {
+    color: #333;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    height: 100%;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.produto {
+    padding: 30px;
+    width: 20%;
+    transition: .8s ease-in-out;
+    cursor: pointer;
+}
+
+.produto:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+}
+
+.label {
+    color: white;
+    background-color: #ff0000;
+    width: fit-content;
+    padding: 12px;
+    margin: 15px 15px;
+    display: block;
+    transform: translateY(-35px);
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao {
+    padding: 12px;
+    margin: 15px 15px;
+    width: 150px;
+    text-align: center;
+    background-color: #14c014;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+}
+
+.titulo {
+    margin: 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descricao {
+    margin: 8px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.whats {
+    width: 50px;
+    margin-left: auto;
+    display: flex;
+    position: sticky;
+    top: 20px;
+}
